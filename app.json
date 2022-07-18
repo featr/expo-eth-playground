@@ -12,6 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      "expo-community-flipper"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -27,7 +30,8 @@
     },
     "ios": {
       "icon": "./assets/images/app-icon-ios.png",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.baskitapp.ExpoPlayground"
     },
     "web": {
       "favicon": "./assets/images/app-icon-web-favicon.png"
